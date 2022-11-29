@@ -1,0 +1,307 @@
+
+header
+{   
+   border: hidden;    
+}
+.first
+{
+    background-color: #fff;;
+    font-size: medium;
+    
+    color: gray;
+}
+.first .desc
+{
+    display: block;
+}
+
+.desc .logo
+{
+    margin-left: 17cm;
+
+}
+.desc h1{
+    word-spacing: 20px;
+    font-style: italic;
+    font-size: 180%;
+    text-align: center;
+    
+    
+    color: #00b39b;
+    font-family: Arial,sans-serif;
+}
+
+.parag{
+ display: flex;
+ justify-content: space-around;
+ margin-top: 1cm;
+ padding: 20px;
+ }
+  
+ .patient{
+    width: 25%;
+    height: 333px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+    color: #fff;
+    background-color: #00ccb1;
+
+}
+
+.doctor{
+    width: 25%;
+    height: 333px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+    color: #fff;
+    background-color:rgba(43, 90, 218, 0.913);
+
+}
+
+.clinic{
+    width: 25%;
+    height: 333px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+    color: #fff;
+    background-color:#1b2734;
+}
+
+.boxs{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .headerr{
+display:flex;    
+justify-content: space-around;
+margin-top: 0.25cm;
+padding:10px 0 ;
+margin-left: -40%;     
+}
+
+header .logo-docplanner{
+    width: 6cm;   
+}
+
+header .nav a{   
+    padding: 0.25cm;
+    font-size: 0.5cm;
+    color :gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 3cm;
+    font-size: 12px;
+    color: #ababab;
+    margin-bottom: 0.4em;
+ }
+ #domain-switcher0, #domain-switcher1,#domain-switcher2,#domain-switcher3{
+ margin-top: 5px;
+ color:rgb(255, 255, 255);
+ background: none;
+ border: 0;
+ font-family: Arial,sans-serif;
+ font-size: 20px;
+ text-decoration:underline #fff;
+ cursor: pointer;
+ border-radius: 4px;
+ }
+ .third {
+    display:flex;
+    justify-content: space-around;
+    
+    margin-top: 1cm;
+
+}
+.third p{
+    color:#00b39b;
+    font-size: 180%;
+    margin-left: -2cm;
+}
+ .icons{
+    
+    width:100px; height:50px;
+    padding: 10px;
+    fill: #747474;
+ }
+ a:link{
+    color:gray;
+}
+a:visited{
+    color:aquamarine
+}
+
+.fourth {
+    padding: 1.875em 0 0.625em;
+    margin: 3.125rem auto 5.5rem;
+   
+    background-image: linear-gradient(-45deg,
+        rgba(0, 204, 177, 0.01) 5%,
+        rgba(61, 199, 223, 0.1));
+    overflow: hidden;
+  }
+  .greenbox {
+  max-width: 1015px;
+  padding: 30px 0 10px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+
+.leftside {
+  margin-left: 0px;
+}
+
+.greentitle {
+  color: #00b39b;
+}
+
+.pgtitle {
+  font-weight: bold;
+  color: #ababab
+}
+
+.greenlogo {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -150px;
+}
+
+.leftside,.rightside {
+  width: 50%;
+}
+
+.rightside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.boxx1,.boxx2,.boxx3,.boxx4 {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+}
+
+.boxx2,.boxx4 {
+  transform: translateY(-30px);
+}
+
+.titer1,.titer2,.titer3,.titer4 {
+  font-size: 20px;
+  color: #00b39b;
+}
+
+.pg01 {
+  color: #747474;
+  font-weight: bold;
+  margin-top: 0-30px;
+}
+
+.pg02,.pg03,.pg04 {
+  color: #747474;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.litlog1 {
+  margin-top: 30px;
+}
+.offices h2{
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    
+    
+    
+    
+   
+
+}
+.offices p{
+    line-height: 1.7142857143;
+    font-weight: bold;
+    margin: 1.6em 0;
+    color:#ababab;
+   
+}
+
+.offices{
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: 0.875em;
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
+.allpho h1{
+    color: #747474;
+    width: 50px;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+}
+ .allpho{
+    
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 3cm;
+    margin-left: 3cm;
+ }
+ 
+ .descph{
+    
+    margin-top: 3px;
+    margin-bottom: 4px;
+    width: 320px;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+ }
+
+ .sixth{
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 1.7em;
+    margin-left: 1.7em;
+ }
+  .sixth h1 {
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    text-align: center;
+}
+.bot{
+  text-align:end;
+}
+  
