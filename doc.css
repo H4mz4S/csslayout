@@ -1,7 +1,8 @@
 
 header
 {   
-   border: hidden;    
+   border: hidden;   
+   position: sticky; 
 }
 .first
 {
@@ -304,4 +305,14 @@ a:visited{
 .bot{
   text-align:end;
 }
-  
+header{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #fff;
+}
+
+.sixth button {
+  display: block;
+  margin: 0 auto;
+}
